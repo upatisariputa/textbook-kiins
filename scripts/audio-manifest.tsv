@@ -1,0 +1,58 @@
+id	voice	rate	text
+w_clown	Samantha	140	clown
+w_clown_ko	Yuna	180	광대
+w_dinosaur	Samantha	140	dinosaur
+w_dinosaur_ko	Yuna	180	공룡
+w_bee	Samantha	140	bee
+w_bee_ko	Yuna	180	벌
+w_dressup	Samantha	140	dress up
+w_dressup_ko	Yuna	180	분장하다
+s_title	Samantha	140	I Dress Up
+s_title_ko	Yuna	180	나는 옷을 입는다
+sr_title	Samantha	140	I Dress Up
+s_title_c1	Samantha	140	I.
+s_title_c2	Samantha	140	Dress Up
+s_s1	Samantha	140	I dress up as a clown.
+s_s1_ko	Yuna	180	나는 광대 분장을 한다.
+sr_s1	Samantha	140	I dress up as a clown.
+s_s1_c1	Samantha	140	I.
+s_s1_c2	Samantha	140	dress up
+s_s1_c3	Samantha	140	as a clown.
+s_s2	Samantha	140	I dress up as a dinosaur.
+s_s2_ko	Yuna	180	나는 공룡 분장을 한다.
+sr_s2	Samantha	140	I dress up as a dinosaur.
+s_s2_c1	Samantha	140	I.
+s_s2_c2	Samantha	140	dress up
+s_s2_c3	Samantha	140	as a dinosaur.
+s_s3	Samantha	140	I dress up as a bee.
+s_s3_ko	Yuna	180	나는 벌 분장을 한다.
+sr_s3	Samantha	140	I dress up as a bee.
+s_s3_c1	Samantha	140	I.
+s_s3_c2	Samantha	140	dress up
+s_s3_c3	Samantha	140	as a bee.
+s_s4	Samantha	140	I dress up as me!
+s_s4_ko	Yuna	180	나는 나 자신으로 분장한다!
+sr_s4	Samantha	140	I dress up as me!
+s_s4_c1	Samantha	140	I.
+s_s4_c2	Samantha	140	dress up
+s_s4_c3	Samantha	140	as me!
+q_write1	Samantha	140	What does the girl dress up as FIRST?
+q_write1_ko	Yuna	180	소녀가 처음에 무엇으로 분장하나요?
+a_write1	Samantha	140	The girl dresses up as a clown.
+a_write1_c1	Samantha	140	The girl
+a_write1_c2	Samantha	140	dresses up
+a_write1_c3	Samantha	140	as a clown.
+q_write2	Samantha	140	What insect does the girl dress up as?
+q_write2_ko	Yuna	180	소녀는 어떤 곤충으로 분장하나요?
+a_write2	Samantha	140	The girl dresses up as a bee.
+a_write2_c1	Samantha	140	The girl
+a_write2_c2	Samantha	140	dresses up
+a_write2_c3	Samantha	140	as a bee.
+q_shade1	Samantha	140	The girl dresses up as a cat.
+q_shade1_ko	Yuna	180	소녀는 고양이 분장을 한다.
+q_shade2	Samantha	140	The girl dresses up as a dinosaur.
+q_shade2_ko	Yuna	180	소녀는 공룡 분장을 한다.
+q_draw	Samantha	140	What do you like to dress up as?
+q_draw_ko	Yuna	180	너는 무엇으로 분장하는 걸 좋아하니?
+praise_great	Samantha	140	Great job!
+praise_try	Samantha	140	Try again!

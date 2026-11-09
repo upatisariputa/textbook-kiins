@@ -1,0 +1,103 @@
+{
+  "_note": "Percent of the page image (left/top/width/height in %). Base page = 603x782pt trim box; source PNGs are 1810x2346px.",
+  "page6": {
+    "image": "source/page6.png",
+    "regions": {
+      "title": {
+        "left": 23.71,
+        "top": 0.26,
+        "width": 50.41,
+        "height": 7.03
+      },
+      "panel1": {
+        "left": 5.8,
+        "top": 9.21,
+        "width": 41.96,
+        "height": 42.07
+      },
+      "panel2": {
+        "left": 49.92,
+        "top": 9.21,
+        "width": 42.29,
+        "height": 42.07
+      },
+      "panel3": {
+        "left": 5.8,
+        "top": 52.3,
+        "width": 41.96,
+        "height": 42.2
+      },
+      "panel4": {
+        "left": 49.92,
+        "top": 52.3,
+        "width": 42.29,
+        "height": 42.2
+      }
+    }
+  },
+  "page7": {
+    "image": "source/page7.png",
+    "regions": {
+      "write1": {
+        "left": 7.46,
+        "top": 15.98,
+        "width": 84.58,
+        "height": 19.57
+      },
+      "write2": {
+        "left": 7.46,
+        "top": 37.47,
+        "width": 84.58,
+        "height": 19.05
+      },
+      "shade": {
+        "left": 7.46,
+        "top": 58.57,
+        "width": 42.29,
+        "height": 35.81
+      },
+      "shade1": {
+        "left": 8.29,
+        "top": 63.3,
+        "width": 41.13,
+        "height": 14.45
+      },
+      "shade2": {
+        "left": 8.29,
+        "top": 77.75,
+        "width": 41.13,
+        "height": 16.11
+      },
+      "shade1_true": {
+        "left": 13.27,
+        "top": 66.88,
+        "width": 13.93,
+        "height": 10.74
+      },
+      "shade1_false": {
+        "left": 30.68,
+        "top": 66.88,
+        "width": 13.93,
+        "height": 10.74
+      },
+      "shade2_true": {
+        "left": 13.27,
+        "top": 82.74,
+        "width": 13.93,
+        "height": 10.74
+      },
+      "shade2_false": {
+        "left": 30.68,
+        "top": 82.74,
+        "width": 13.93,
+        "height": 10.74
+      },
+      "draw": {
+        "left": 49.75,
+        "top": 58.57,
+        "width": 41.96,
+        "height": 35.81
+      }
+    }
+  }
+}

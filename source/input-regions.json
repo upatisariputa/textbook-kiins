@@ -1,0 +1,159 @@
+{
+  "_note": "Page 7 input mirror regions, percent of the page image (603x782pt base, same space as hotspots.json). Measured on the 1810x2346 render.",
+  "name": {
+    "left": 17.58,
+    "top": 3.84,
+    "width": 57.38,
+    "height": 2.3,
+    "baseline": 6.07
+  },
+  "write1": {
+    "area": {
+      "left": 7.79,
+      "top": 19.18,
+      "width": 84.08,
+      "height": 16.11
+    },
+    "rows": [
+      {
+        "top": 19.82,
+        "mid": 22.89,
+        "base": 25.96,
+        "left": 7.79,
+        "width": 84.08
+      },
+      {
+        "top": 28.77,
+        "mid": 31.84,
+        "base": 34.91,
+        "left": 7.79,
+        "width": 84.08
+      }
+    ],
+    "practiceArea": {
+      "left": 7.794,
+      "top": 18.926,
+      "width": 84.08,
+      "height": 17.903,
+      "aspect": 3.6214,
+      "guides": [
+        {
+          "y": 0.05,
+          "style": "solid"
+        },
+        {
+          "y": 0.2214,
+          "style": "dashed"
+        },
+        {
+          "y": 0.3929,
+          "style": "solid"
+        },
+        {
+          "y": 0.55,
+          "style": "solid"
+        },
+        {
+          "y": 0.7214,
+          "style": "dashed"
+        },
+        {
+          "y": 0.8929,
+          "style": "solid"
+        }
+      ]
+    }
+  },
+  "write2": {
+    "area": {
+      "left": 7.79,
+      "top": 40.28,
+      "width": 84.08,
+      "height": 15.98
+    },
+    "rows": [
+      {
+        "top": 40.79,
+        "mid": 43.86,
+        "base": 46.93,
+        "left": 7.79,
+        "width": 84.08
+      },
+      {
+        "top": 49.74,
+        "mid": 52.81,
+        "base": 55.88,
+        "left": 7.79,
+        "width": 84.08
+      }
+    ],
+    "practiceArea": {
+      "left": 7.794,
+      "top": 39.898,
+      "width": 84.08,
+      "height": 17.903,
+      "aspect": 3.6214,
+      "guides": [
+        {
+          "y": 0.05,
+          "style": "solid"
+        },
+        {
+          "y": 0.2214,
+          "style": "dashed"
+        },
+        {
+          "y": 0.3929,
+          "style": "solid"
+        },
+        {
+          "y": 0.55,
+          "style": "solid"
+        },
+        {
+          "y": 0.7214,
+          "style": "dashed"
+        },
+        {
+          "y": 0.8929,
+          "style": "solid"
+        }
+      ]
+    }
+  },
+  "shade1": {
+    "TRUE": {
+      "left": 13.6,
+      "top": 67.14,
+      "width": 13.27,
+      "height": 10.23
+    },
+    "FALSE": {
+      "left": 31.01,
+      "top": 67.14,
+      "width": 13.27,
+      "height": 10.23
+    }
+  },
+  "shade2": {
+    "TRUE": {
+      "left": 13.6,
+      "top": 82.99,
+      "width": 13.27,
+      "height": 10.23
+    },
+    "FALSE": {
+      "left": 31.01,
+      "top": 82.99,
+      "width": 13.27,
+      "height": 10.23
+    }
+  },
+  "draw": {
+    "left": 51.08,
+    "top": 67.01,
+    "width": 39.8,
+    "height": 26.73
+  },
+  "_practiceAreaNote": "practiceArea = the book box the SHADOW WRITING handwriting canvas is a scaled copy of (same aspect). guides[].y = fraction of the box height (rows: top/dashed mid/base x2). Canvas maps 1:1 (uniform scale) onto this box."
+}

@@ -1,0 +1,21 @@
+import assert from 'node:assert/strict';
+import { correctAnswer } from '../js/ui/correction.js';
+import { CONFIG } from '../data/content.js';
+
+const accepted = CONFIG.acceptedAnswers.write1;
+const example = correctAnswer('the girl dress up as clown', accepted);
+assert.equal(example.fixes, 4);
+assert.equal(example.capital, true);
+assert.equal(example.period, true);
+assert.ok(example.operations.some(op => op.type === 'replace' && op.from === 'dress' && op.to === 'dresses'));
+assert.ok(example.operations.some(op => op.type === 'insert' && op.to === 'a'));
+for (const answer of accepted) assert.equal(correctAnswer(answer, accepted).fixes, 0);
+assert.equal(correctAnswer('  ', accepted).empty, true);
+assert.equal(correctAnswer('...123', accepted).empty, true);
+assert.equal(correctAnswer('The girl dresses up as a clown.', accepted).distance, 0);
+assert.equal(correctAnswer('The girl DRESSES up as a clown.', accepted).fixes, 0);
+assert.equal(correctAnswer('The girl dresses up as a very clown.', accepted).operations.filter(op => op.type === 'delete').length, 1);
+assert.equal(correctAnswer('She dress up as a clown', accepted).answer, 'She dresses up as a clown.');
+assert.equal(correctAnswer('She dresses up as a bee.', CONFIG.acceptedAnswers.write2).fixes, 0);
+assert.equal(correctAnswer('The girl dresses up as a clown!', accepted).period, true);
+console.log('Correction checks passed: sample, alternatives, insertions, extras, spelling, capitalization, punctuation, empty input.');
